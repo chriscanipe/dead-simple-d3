@@ -1,6 +1,6 @@
 # A dead simple D3.js web app template
 
-###To get started:
+### To get started:
 
 1. Clone the repo:
   `git clone git@github.com:chriscanipe/dead-simple-d3.git scatterplot-example`
@@ -15,10 +15,10 @@
 
 
 
-###D3 Basics
+### D3 Basics
 
 
-### Table of contents
+###  Table of contents
 
 - [SVG](#SVG)
 - [Selections](#selections)
@@ -35,7 +35,7 @@
 python -m SimpleHTTPServer
 python3 -m http.server
 
-###SVG
+### SVG
 Stands for Scalable Vector Graphics
 SVG contains a family of elements (html tags) that can only be used inside of a `<svg></svg>` element
 Some examples:
@@ -46,7 +46,7 @@ Some examples:
 Read more about each element and their properties [here](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes).
 
 
-###Selections
+### Selections
 There are two ways to select elements in D3.js
 
 `d3.select()`
@@ -87,7 +87,7 @@ Read more about selections [here](https://website.education.wisc.edu/~swu28/d3t/
 
 
 
-###Scales
+### Scales
 
 Scale functions are essentially algabraic formulas that convert a data point into a pixel value.
 
@@ -107,7 +107,7 @@ Example:
 `scaleBand`
 
 
-###Margins
+### Margins
 
 When we chart a dataset, we're adding elements to a designated space (or "plot") on our page. That space has an available width and height in which those elements can appear (usually defined as the "range" or "rangeRound" property in our scales). Margins allow us to position the plot relative to the width and height of our SVG.
 
@@ -115,7 +115,7 @@ Read more about the margins convention [here](https://bl.ocks.org/mbostock/30195
 
 
 
-###Axes
+### Axes
 axisLeft
 axisTop
 axisBototm
