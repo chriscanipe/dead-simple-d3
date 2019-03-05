@@ -9,6 +9,8 @@ To get started:
 
 2. Start a Python simple server:
   `python3 -m http.server`
+  *or*
+  `python -m SimpleHTTPServer` if using an old version of Python
 
 3. Go to `http://localhost:8000` in your browser
 

@@ -4,10 +4,6 @@ serif: "Domine", Georgia, serif !default;
 */
 
 
-.chart {
-  height: 500px;
-  width: 100%;
-}
 
 #main-wrapper {
     width: 100%;
@@ -16,3 +12,7 @@ serif: "Domine", Georgia, serif !default;
 }
 
 
+.chart {
+  height: 500px;
+  width: 100%;
+}
