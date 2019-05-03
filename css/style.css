@@ -4,7 +4,9 @@ sans: "Source Sans Pro", Helvetica, Arial, sans-serif !default;
 serif: "Domine", Georgia, serif !default;
 */
 
-#main-wrapper {
+
+
+#main-content {
     width: 100%;
     max-width: 900px;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
