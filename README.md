@@ -79,6 +79,66 @@ Event listeners can be added to selections.
 
 Read more about selections [here](https://website.education.wisc.edu/~swu28/d3t/concept.html).
 
+
+### Data Types
+
+#### Arrays
+
+A JavaScript array is a list of things. We use brackets `[]` to indicate an array, and each value is separated by commas.
+
+For example: `["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]`
+
+The planet names are each strings (text), so they're wrapped in quotes. Numbers don't need quotes.
+
+#### Objects
+
+A JavaScript object is basically a single thing with properties. You can think of it as a specific row in a spreadsheet with multiple columns. For example, in this table of planet statistics:
+
+| name    | day_hours | mean_temp | moons |
+|---------|-----------|-----------|-------|
+| Mercury | 4222.6    | 332.6     | 0     |
+| Venus   | 2802      | 867.2     | 0     |
+| Earth   | 24        | 59        | 1     |
+| Mars    | 24.7      | -85       | 2     |`
+
+Earth has 4 properties: name, day_hours, mean_temp and moons.
+
+In JavaScript, we would repesent Earth as an object:
+
+`{
+  name : "Earth",
+  day_hours : 24,
+  mean_temp : 59,
+  moons : 1
+}`
+
+#### Object Arrays
+
+The most common way to repesent a dataset is as an Object Array, which is basically just a list of things with properties. Again, the simplest allegory is that of a spreadsheet. Using the same table, we'd express the first four planets from the Sun as the following Object Array:
+
+`[{
+    "planet": "Mercury",
+    "day_hours": 4222.6,
+    "mean_temp": 332.6,
+    "moons": 0
+}, {
+    "planet": "Venus",
+    "day_hours": 2802,
+    "mean_temp": 867.2,
+    "moons": 0
+}, {
+    "planet": "Earth",
+    "day_hours": 24,
+    "mean_temp": 59,
+    "moons": 1
+}, {
+    "planet": "Mars",
+    "day_hours": 24.7,
+    "mean_temp": -85,
+    "moons": 2
+}]`
+
+
 ### Scales
 
 Scale functions are essentially algabraic formulas that convert a data point into a pixel value.
